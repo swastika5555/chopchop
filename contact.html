@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Street Dragon Momos</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'ZCOOL KuaiLe', cursive;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #ffa31a;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ffa31a;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .contact-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .contact-container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* Contact Form */
+        form {
+            flex: 1 1 350px;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ffa31a;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            background: #000;
+            border: 2px solid #ffa31a;
+            border-radius: 5px;
+            color: #ffa31a;
+            font-size: 1rem;
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            background: #ffa31a;
+            color: #000;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background: #ffb84d;
+        }
+
+        /* Contact Info */
+        .info-box {
+            flex: 1 1 300px;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ffa31a;
+        }
+
+        .info-box h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .info-box p {
+            font-size: 1.1rem;
+            margin: 8px 0;
+        }
+
+        .social {
+            margin-top: 15px;
+        }
+
+        .social a {
+            margin-right: 10px;
+            font-size: 1.5rem;
+            color: #ffa31a;
+            text-decoration: none;
+        }
+
+        /* Map */
+        .map {
+            margin-top: 30px;
+            border: 2px solid #ffa31a;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<section class="contact-section">
+    <div class="contact-container">
+
+        <!-- Contact Form -->
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Your Message</label>
+            <textarea rows="4" placeholder="Write your message..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="info-box">
+           
+            <h2>ChopChop 🍜🔥</h2>
+            <p>📍 Gomti Nagar, Lucknow</p>
+            <p>📞 +91 9876543210</p>
+            <p>✉️ streetdragonmomos@gmail.com</p>
+            <p>⏰ Open: 11 AM – 11 PM</p>
+
+            <div class="social">
+                <a href="#">🐉 Instagram</a>
+                <a href="#">🔥 Facebook</a>
+                <a href="#">🥟 Zomato</a>
+            </div>
+        </div>
+
+    </div>
+
+   
+
+</section>
+
+</body>
+</html>
